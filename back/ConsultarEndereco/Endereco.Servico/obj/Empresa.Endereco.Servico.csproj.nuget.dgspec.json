@@ -1,0 +1,132 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/yangraim/RiderProjects/ConsultarEndereco/Empresa.Endereco.Servico/Empresa.Endereco.Servico.csproj": {}
+  },
+  "projects": {
+    "/Users/yangraim/RiderProjects/ConsultarEndereco/Empresa.Endereco.Dominio/Empresa.Endereco.Dominio.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/yangraim/RiderProjects/ConsultarEndereco/Empresa.Endereco.Dominio/Empresa.Endereco.Dominio.csproj",
+        "projectName": "Empresa.Endereco.Dominio",
+        "projectPath": "/Users/yangraim/RiderProjects/ConsultarEndereco/Empresa.Endereco.Dominio/Empresa.Endereco.Dominio.csproj",
+        "packagesPath": "/Users/yangraim/.nuget/packages/",
+        "outputPath": "/Users/yangraim/RiderProjects/ConsultarEndereco/Empresa.Endereco.Dominio/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/yangraim/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "/usr/local/share/dotnet/library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.424/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/yangraim/RiderProjects/ConsultarEndereco/Empresa.Endereco.Servico/Empresa.Endereco.Servico.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/yangraim/RiderProjects/ConsultarEndereco/Empresa.Endereco.Servico/Empresa.Endereco.Servico.csproj",
+        "projectName": "Empresa.Endereco.Servico",
+        "projectPath": "/Users/yangraim/RiderProjects/ConsultarEndereco/Empresa.Endereco.Servico/Empresa.Endereco.Servico.csproj",
+        "packagesPath": "/Users/yangraim/.nuget/packages/",
+        "outputPath": "/Users/yangraim/RiderProjects/ConsultarEndereco/Empresa.Endereco.Servico/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/yangraim/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "/usr/local/share/dotnet/library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "/Users/yangraim/RiderProjects/ConsultarEndereco/Empresa.Endereco.Dominio/Empresa.Endereco.Dominio.csproj": {
+                "projectPath": "/Users/yangraim/RiderProjects/ConsultarEndereco/Empresa.Endereco.Dominio/Empresa.Endereco.Dominio.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.424/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

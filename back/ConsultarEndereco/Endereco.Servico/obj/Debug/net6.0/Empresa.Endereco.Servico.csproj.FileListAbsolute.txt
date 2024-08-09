@@ -1,0 +1,15 @@
+/Users/yangraim/RiderProjects/ConsultarEndereco/Empresa.Endereco.Servico/bin/Debug/net6.0/Empresa.Endereco.Servico.deps.json
+/Users/yangraim/RiderProjects/ConsultarEndereco/Empresa.Endereco.Servico/bin/Debug/net6.0/Empresa.Endereco.Servico.dll
+/Users/yangraim/RiderProjects/ConsultarEndereco/Empresa.Endereco.Servico/bin/Debug/net6.0/Empresa.Endereco.Servico.pdb
+/Users/yangraim/RiderProjects/ConsultarEndereco/Empresa.Endereco.Servico/bin/Debug/net6.0/Empresa.Endereco.Dominio.dll
+/Users/yangraim/RiderProjects/ConsultarEndereco/Empresa.Endereco.Servico/bin/Debug/net6.0/Empresa.Endereco.Dominio.pdb
+/Users/yangraim/RiderProjects/ConsultarEndereco/Empresa.Endereco.Servico/obj/Debug/net6.0/Empresa.Endereco.Servico.csproj.AssemblyReference.cache
+/Users/yangraim/RiderProjects/ConsultarEndereco/Empresa.Endereco.Servico/obj/Debug/net6.0/Empresa.Endereco.Servico.GeneratedMSBuildEditorConfig.editorconfig
+/Users/yangraim/RiderProjects/ConsultarEndereco/Empresa.Endereco.Servico/obj/Debug/net6.0/Empresa.Endereco.Servico.AssemblyInfoInputs.cache
+/Users/yangraim/RiderProjects/ConsultarEndereco/Empresa.Endereco.Servico/obj/Debug/net6.0/Empresa.Endereco.Servico.AssemblyInfo.cs
+/Users/yangraim/RiderProjects/ConsultarEndereco/Empresa.Endereco.Servico/obj/Debug/net6.0/Empresa.Endereco.Servico.csproj.CoreCompileInputs.cache
+/Users/yangraim/RiderProjects/ConsultarEndereco/Empresa.Endereco.Servico/obj/Debug/net6.0/Empresa.Endereco.Servico.csproj.CopyComplete
+/Users/yangraim/RiderProjects/ConsultarEndereco/Empresa.Endereco.Servico/obj/Debug/net6.0/Empresa.Endereco.Servico.dll
+/Users/yangraim/RiderProjects/ConsultarEndereco/Empresa.Endereco.Servico/obj/Debug/net6.0/refint/Empresa.Endereco.Servico.dll
+/Users/yangraim/RiderProjects/ConsultarEndereco/Empresa.Endereco.Servico/obj/Debug/net6.0/Empresa.Endereco.Servico.pdb
+/Users/yangraim/RiderProjects/ConsultarEndereco/Empresa.Endereco.Servico/obj/Debug/net6.0/ref/Empresa.Endereco.Servico.dll

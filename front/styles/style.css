@@ -1,0 +1,188 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+}
+
+body {
+    min-height: 100vh;
+    width: 100%;
+    background: linear-gradient(120deg, #3687A4 0%, #8bb0ff 100%);
+
+    position: relative;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+h1 {
+    color: #fafafa;
+    font-size: 24px;
+}
+
+main {
+    max-width: 600px;
+    width: 100%;
+}
+
+.content {
+    background-color: #fafafa;
+    border-radius: 8px;
+    padding: 10px;
+    margin: 10px;
+}
+
+.cep-form,
+.estado-cidade-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    margin-top: 30px;
+    border-radius: 3px;
+}
+
+.input-cep {
+    width: 300px;
+    height: 30px;
+    margin: 3px 0;
+    padding: 5px;
+    border-radius: 6px;
+    border: 1px solid #3687A4;
+}
+
+.cep-section {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+
+    width: 300px;
+    margin: 10px auto;
+    line-height: 30px;
+}
+
+input[type=number]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+
+}
+
+input[type=number] {
+    -moz-appearance: textfield;
+    appearance: textfield;
+
+}
+
+.btn {
+    height: 30px;
+    width: 100%;
+    max-width: 300px;
+    margin-bottom: 12px;
+    border-radius: 8px;
+    border: none;
+    background-color: #3687A4;
+    color: #fafafa;
+    font-size: 18px;
+}
+
+.estado-cidade-form select {
+    width: 42px;
+    height: 30px;
+    border-radius: 5px;
+    border: 1px solid #3687A4;
+
+}
+
+.input-cidade {
+    width: 253px;
+    height: 30px;
+    margin: 10px 0;
+    padding: 5px;
+    border-radius: 6px;
+    border: 1px solid #3687A4;
+}
+
+.estado-cidade-section {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 20px 0;
+    line-height: 30px;
+}
+
+label {
+    width: 100%;
+    max-width: 300px;
+    text-align: flex-start;
+}
+
+.estado-cidade {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+}
+
+span {
+    visibility: hidden;
+}
+
+
+.cep-form.error input,
+.estado-cidade-form.error select,
+.estado-cidade-form.error input {
+    border-color: #ff3b25;
+    display: flex;
+    flex-direction: row;
+}
+
+.cep-form.error span,
+.estado-cidade-form.error span {
+    width: 100%;
+    max-width: 300px;
+    margin-bottom: 8px;
+
+
+
+    font-size: 12px;
+    color: #ff3b25;
+    visibility: visible;
+}
+
+
+#resultado-uf {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+
+
+
+    background-color: #f9f9f9;
+    overflow: hidden;
+}
+
+.endereco-item {
+    padding: 8px;
+    border-bottom: #8bb0ff;
+    margin: 16px 0;
+
+    width: 100%;
+    max-width: 300px;
+}
+
+select {
+    margin-right: 5px;
+}
+
+footer {
+    margin: 10px;
+    position: absolute;
+    bottom: 0;
+    color: #fafafa;
+}

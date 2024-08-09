@@ -1,0 +1,36 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net6.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\Endereco.Dominio\Endereco.Dominio.csproj" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <Compile Remove="Class1.cs" />
+      <Compile Remove="ViaCep\ResponseModel\**" />
+      <Compile Remove="ViaCep\RequestModel\**" />
+      <Compile Remove="ViaCepEndereco\**" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <EmbeddedResource Remove="ViaCep\ResponseModel\**" />
+      <EmbeddedResource Remove="ViaCep\RequestModel\**" />
+      <EmbeddedResource Remove="ViaCepEndereco\**" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <None Remove="ViaCep\ResponseModel\**" />
+      <None Remove="ViaCep\RequestModel\**" />
+      <None Remove="ViaCepEndereco\**" />
+    </ItemGroup>
+
+</Project>
